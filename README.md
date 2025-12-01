@@ -16,6 +16,8 @@ npm test
 ## What's Included
 
 This repository contains a 4-bit ripple-carry adder circuit from CircuitVerse with three different testing approaches. Each test file demonstrates a different testing philosophy.
+<img width="953" height="539" alt="image" src="https://github.com/user-attachments/assets/d8c510ce-7ce6-4304-98ad-f33f2ca6b704" />
+
 
 ### Test Files
 
