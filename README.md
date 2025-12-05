@@ -21,12 +21,12 @@ This repository contains a 4-bit ripple-carry adder circuit from CircuitVerse wi
 
 ### Test Files
 
-#### 1. **ripple-carry-table.test.ts** — Start Here!
+#### 1. **ripple-carry-table.test.ts** - Start Here!
 A straightforward, table-driven test using specific values. This is the best file to read first if you're new to Willow testing.
 
 **Why use this approach?**
 - Easy to understand and modify
-- Good for documentation—the test table doubles as a specification
+- Good for documentation-the test table doubles as a specification
 - Perfect for testing known edge cases and important scenarios
 - Minimal setup required
 
@@ -47,7 +47,7 @@ test.each(testCases)("$description", ({ a, b, expectedSum }) => {
 });
 ```
 
-#### 2. **ripple-carry-edge-cases.test.ts** — Learn Testing Patterns
+#### 2. **ripple-carry-edge-cases.test.ts** - Learn Testing Patterns
 Organized by testing category (boundary values, commutativity, overflow, etc.). Shows how to verify mathematical properties and circuit behavior.
 
 **Why use this approach?**
@@ -71,11 +71,11 @@ describe("Boundary Values", () => {
 });
 ```
 
-#### 3. **ripple-carry-exhaustive.test.ts** — Complete Coverage
+#### 3. **ripple-carry-exhaustive.test.ts** - Complete Coverage
 Tests all 65,536 possible 4-bit additions by iterating through every combination.
 
 **Why use this approach?**
-- Absolute confidence in correctness—no case is left untested
+- Absolute confidence in correctness-no case is left untested
 - Excellent for critical circuits (ALUs, adders, etc.)
 - Catches corner cases you might not think of
 - Trade-off: Takes longer to run
@@ -195,7 +195,7 @@ const incremented = bits.add("0001"); // "0001"
 - **Document your tests.** Good descriptions help others (and future you) understand what's being tested.
 - **Use meaningful variable names.** Compare `a`, `b`, `carry` to `inputA`, `inputB`, `carryIn`.
 - **Group related tests.** Use `describe()` blocks to organize by functionality.
-- **Don't over-test.** Exhaustive testing is powerful but slow—use it selectively.
+- **Don't over-test.** Exhaustive testing is powerful but slow-use it selectively.
 
 ## License
 
