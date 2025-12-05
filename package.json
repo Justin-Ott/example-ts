@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/willow-dls/example#readme",
   "devDependencies": {
-    "@babel/preset-env": "^7.26.9",
-    "@babel/preset-typescript": "^7.27.0",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-typescript": "^7.27.1",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.14.0",

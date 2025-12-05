@@ -1,7 +1,7 @@
 import { expect, beforeAll, test } from "@jest/globals";
 import {BitString, CircuitVerseLoader, Circuit, loadCircuit} from "@willow-dls/core";
 
-let adder: Circuit;
+let adder; Circuit;
 
 beforeAll(async () => {
   adder = await loadCircuit(
